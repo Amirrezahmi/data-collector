@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/title_text_view"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Now Playing: Lil Jon"-->
+        <!--            android:textSize="24sp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:gravity="center"/>-->
+
+        <Button
+            android:id="@+id/activity2_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:layout_gravity="end" />
+<!--            android:layout_width="377dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:insetLeft="290dp"-->
+<!--            android:text="About"-->
+<!--            app:backgroundTint="#DD6A3BBD" />-->
+
+        <TextView
+            android:id="@+id/now_playing_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Play to listen to music"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/timer_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/music_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Play" />
+
+        <TextView
+            android:id="@+id/question_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/question_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your question"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/answer_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/answer_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your answer"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/password_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password to access the dataset"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <LinearLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/view_dataset_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="View Dataset" />
+
+            <Button
+                android:id="@+id/share_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Share Dataset" />
+
+            <Button
+                android:id="@+id/clear_dataset_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Clear Dataset" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dataset_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp">-->
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/title_text_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Now Playing: Lil Jon"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"/>-->
+
+<!--    <SeekBar-->
+<!--        android:id="@+id/seek_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:max="100"-->
+<!--        android:progress="0"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/current_time_text_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0:00"-->
+<!--        android:textSize="18sp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/music_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Play"-->
+<!--        android:onClick="onClick"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/question_text_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Question:"-->
+<!--        android:textSize="18sp"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/question_edit_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter your question" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/answer_text_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Answer:"-->
+<!--        android:textSize="18sp"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/answer_edit_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter your answer" />-->
+<!--    <Button-->
+<!--        android:id="@+id/submit_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Submit" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/password_text_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Password:"-->
+<!--        android:textSize="18sp"/>-->
+<!--    <EditText-->
+<!--        android:id="@+id/password_edit_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:hint="Enter password to access the dataset" />-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/button_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/view_dataset_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="View Dataset" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/share_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Share Dataset" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/clear_dataset_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Clear Dataset" />-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/dataset_text_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="18sp" />-->
+
+<!--</LinearLayout>-->
+<!--</ScrollView>-->
+
+
+
