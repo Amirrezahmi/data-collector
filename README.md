@@ -26,7 +26,7 @@ To install the Data Collector app on your Android device, follow these steps:
   3. Connect your Android device to your computer.
   4. Build and run the app on your connected device from Android Studio.
 
-Alternatively, you can download the APK file from the releases section of the GitHub repository and install it directly on your Android device. you only need to download `app.APK` on your device in this case.
+Alternatively, you can download the APK file from the releases section of the GitHub repository and install it directly on your Android device. you only need to download `app-debug.APK` on your device in this case.
 
 ## Usage
 
