@@ -2,6 +2,12 @@
 
 The Data Collector Android app is designed to help you collect and manage data easily. It provides a user-friendly interface for entering questions and answers, maintaining a dataset, playing music, and more. This README provides an overview of the app's features, usage instructions, and additional information.
 
+
+
+https://github.com/Amirrezahmi/data-collector/assets/89692207/54ef7ea4-cb77-4341-83d1-e53869131ac9
+
+
+
 ## Features
 
    1. $\textbf{Data Collection}$: Enter questions and answers into the app, which will be added to the dataset for later reference.
