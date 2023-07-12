@@ -62,7 +62,9 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 
 ## Acknowledgments
 
-The app was developed by me as a personal project. Feel free to use, modify, and distribute it according to the terms of the MIT License.
+The app was developed by me as a personal project for [Zozo assistant](https://github.com/Amirrezahmi/Zozo-Assistan).
+
+Feel free to use, modify, and distribute it according to the terms of the MIT License.
 
 If you have any questions, feedback, or feature requests, please contact amirrezahmi2002@gmail.com.
 
